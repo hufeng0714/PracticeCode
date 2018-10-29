@@ -40,7 +40,7 @@ public class HeroDAO implements DAO{
 	
 	public Connection getConnection() throws SQLException{
 		return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/how2java" +
-        		"?characterEncoding=UTF-8","root", "");
+        		"?characterEncoding=UTF-8","root", "admin");
 	}
 	
 	public int getTotal(){
