@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_79"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/selenium"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/selenium-server"/>
 	<classpathentry kind="lib" path="D:/javaLib/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="D:/EcliWorkSpace201809/mypro/javaLib/datepicker.jar"/>
+	<classpathentry kind="lib" path="D:/EcliWorkSpace201809/mypro/javaLib/swingx-core-1.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/EcliWorkSpace201809/mypro/Swing样式大全（全56种经典）/24种样式合集/substance.jar"/>
+	<classpathentry kind="lib" path="D:/EcliWorkSpace201809/mypro/Swing样式大全（全56种经典）/24种样式合集/trident.jar"/>
+	<classpathentry kind="lib" path="D:/EcliWorkSpace201809/mypro/Swing样式大全（全56种经典）/7种另类风格和实例/JTattoo.jar"/>
+	<classpathentry kind="lib" path="D:/EcliWorkSpace201809/mypro/Swing样式大全（全56种经典）/7种另类风格和实例/JTattooDemo.jar"/>
+	<classpathentry kind="lib" path="D:/EcliWorkSpace201809/mypro/Swing样式大全（全56种经典）/7种另类风格和实例/liquidlnf.jar"/>
+	<classpathentry kind="lib" path="D:/EcliWorkSpace201809/mypro/Swing样式大全（全56种经典）/5种经典的Alloy和liquidlnf/alloy.jar"/>
+	<classpathentry kind="lib" path="D:/EcliWorkSpace201809/mypro/Swing样式大全（全56种经典）/5种经典的Alloy和liquidlnf/liquidlnf.jar"/>
+	<classpathentry kind="lib" path="D:/EcliWorkSpace201809/mypro/javaLib/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
