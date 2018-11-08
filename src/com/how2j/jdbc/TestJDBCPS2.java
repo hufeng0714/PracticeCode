@@ -24,7 +24,7 @@ public class TestJDBCPS2 {
 		
 		try(
 				Connection c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/how2java" +
-						"?characterEncoding=UTF-8","root", "");
+						"?characterEncoding=UTF-8","root", "admin");
 				Statement s = c.createStatement();
 				// 根据sql语句创建PreparedStatement
 				PreparedStatement ps = c.prepareStatement(sql);

@@ -36,7 +36,7 @@ public class TestJDBCID {
 		String sql = "insert into hero values(null,?,?,?)";
 		try(
 				Connection c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/how2java" +
-		        		"?characterEncoding=UTF-8","root", "");
+		        		"?characterEncoding=UTF-8","root", "admin");
 				PreparedStatement ps = c.prepareStatement(sql);
 				){
 	          	ps.setString(1, "¸ÇÂ×");

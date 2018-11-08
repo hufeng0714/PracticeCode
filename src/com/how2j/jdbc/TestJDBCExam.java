@@ -32,7 +32,7 @@ public class TestJDBCExam {
 			Class.forName("com.mysql.jdbc.Driver");
 			System.out.println("ok!");
 			c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/how2java" +
-					"?characterEncoding=UTF-8","root", "");
+					"?characterEncoding=UTF-8","root", "admin");
 			//创建Statement
 			s = c.createStatement();
 			System.out.println("获取 Statement对象： " + s);

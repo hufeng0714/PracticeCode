@@ -26,7 +26,7 @@ public class TestJDBCEU2 {
         }
  
         try (Connection c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/how2java" +
-        		"?characterEncoding=UTF-8","root", "");
+        		"?characterEncoding=UTF-8","root", "admin");
             Statement s = c.createStatement();) {
   
             // 不同1：execute可以执行查询语句

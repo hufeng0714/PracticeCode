@@ -35,7 +35,7 @@ public class TestJDBC {
             // 账号 root
             // 密码 admin(我的本机密码是空)
 			c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/how2java" +
-					"?characterEncoding=UTF-8","root", "");
+					"?characterEncoding=UTF-8","root", "admin");
 			System.out.println("连接成功，获取连接对象： " + c);
 			
 			//创建Statement

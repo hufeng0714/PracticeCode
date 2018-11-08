@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 
 /*
  * executeQuery 执行SQL查询语句
@@ -17,6 +18,7 @@ public class TestJDBCSelect {
 
 	public static void main(String[] args) {
 		
+		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
@@ -25,7 +27,7 @@ public class TestJDBCSelect {
 		
 		try(
 				Connection c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/how2java" +
-						"?characterEncoding=UTF-8","root", "");
+						"?characterEncoding=UTF-8","root", "admin");
 				Statement s = c.createStatement();	
 				) {
 
@@ -40,6 +42,7 @@ public class TestJDBCSelect {
                 int damage = rs.getInt(4);
                 System.out.printf("%d\t%s\t%f\t%d%n", id, name, hp, damage);
 			}
+				
             // 不一定要在这里关闭ReultSet，因为Statement关闭的时候，会自动关闭ResultSet
             // rs.close();
 		} catch (SQLException e) {

@@ -23,7 +23,7 @@ public class TestJDBCORM {
         }
  
         try (Connection c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/how2java" +
-        		"?characterEncoding=UTF-8","root", "");
+        		"?characterEncoding=UTF-8","root", "admin");
             Statement s = c.createStatement();) {
  
             String sql = "select * from hero where id = " + id;
